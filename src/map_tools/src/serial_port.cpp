@@ -270,7 +270,7 @@ private:
         second_vis=0;
         global_send[3] = msg->yaw;
         global_send[4] = msg->pitch;
-        global_send[5] = msg->deep;
+        global_send[5] = msg->shoot_flag;
         // if(control.size()<1){
         //     control.push_back((uint8_t)0xA4);  // 设置起始字节
         //     floatToHexBytes(0, control);
