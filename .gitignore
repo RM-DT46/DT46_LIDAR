@@ -20,7 +20,7 @@ YDLidar-SDK-master/
 *.cfgc
 /cfg/cpp/
 /cfg/*.py
-
+src/serial/
 # Ignore generated docs
 *.dox
 *.wikidoc
